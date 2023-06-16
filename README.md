@@ -23,3 +23,8 @@
     ...
   }
 ```
+- Now restart the Nginx
+  
+```bash
+  systemctl restart nginx
+```
