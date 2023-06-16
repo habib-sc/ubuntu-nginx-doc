@@ -18,6 +18,7 @@
 
 ```bash
   http {
+    # add this code in http block
     client_max_body_size 100M;
     ...
   }
