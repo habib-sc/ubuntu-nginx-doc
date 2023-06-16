@@ -1,1 +1,24 @@
-# ubuntu-nginx-doc
+
+# Ubuntu Nginx Doc
+
+
+
+### File upload size limit - nginx:
+
+- Locate the Nginx configuration file and edit
+
+```bash
+  cd /etc/nginx
+```
+```bash
+  nano nginx.conf
+```
+
+- After opening nginx.conf file find http block code, add the code below
+
+```bash
+  http {
+    client_max_body_size 100M;
+    ...
+  }
+```
